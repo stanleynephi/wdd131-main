@@ -1,0 +1,102 @@
+@media screen and (min-width:750px) {
+
+    body {
+        margin: 0;
+        font-family: Roboto;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: white;
+        font-family: Roboto;
+        background-color: black;
+        height: 3.5rem;
+        text-transform: capitalize;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            justify-self: start;
+            align-items: self-start;
+            margin-top: 4px;
+            text-transform: capitalize;
+        }
+
+        .buttons {
+            display: none;
+        }
+
+        .navigation {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 550px;
+
+            li{
+                list-style: none;
+            }
+
+            a {
+                display: block;
+                font-size: 20px;
+                color: white;
+                text-decoration: none;
+            }
+
+
+            a:hover {
+                border-bottom: 3px solid white;
+            }
+
+        }
+    }
+
+    main {
+        display: flex;
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto 9rem;
+        text-align: center;
+
+        ul{
+            list-style: none;
+        }
+        
+        div{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: gray;
+            margin: 1rem 3rem;
+            width: 350px;
+        }
+
+        img{
+            display: block;
+            width: 280px;
+            height: 200px;
+        }
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        color: white;
+        font-family: Roboto;
+        font-size: 20px;
+        background-color: black;
+
+        span {
+            margin-top: -1rem;
+        }
+    }
+}

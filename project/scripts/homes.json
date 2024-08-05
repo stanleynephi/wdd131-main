@@ -1,0 +1,50 @@
+{
+    "homes": [
+        {
+            "homeid":"1",
+            "country":"Ghana",
+            "city":"Accra",
+            "img":"./images/home1.jpg",
+            "rentorsale":"Rent",
+            "price":"Ghc 1000"
+        },
+
+        {
+            "homeid":"2",
+            "country":"Ghana",
+            "city":"Accra",
+            "img":"./images/home2.jpg",
+            "rentorsale":"Selling",
+            "price":"Ghc 1000"
+        },
+
+        {
+            "homeid":"3",
+            "country":"Ghana",
+            "city":"Accra",
+            "img":"./images/home3.jpg",
+            "rentorsale":"Selling",
+            "price":"Ghc 1000"
+        },
+
+        
+        {
+            "homeid":"4",
+            "country":"Ghana",
+            "city":"Accra",
+            "img":"./images/home4.jpg",
+            "rentorsale":"Selling",
+            "price":"Ghc 1000"
+        },
+
+        
+        {
+            "homeid":"5",
+            "country":"Ghana",
+            "city":"Accra",
+            "img":"./images/home5.jpg",
+            "rentorsale":"Rent",
+            "price":"Ghc 1000"
+        }
+    ]
+}

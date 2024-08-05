@@ -1,0 +1,119 @@
+@media  screen and (max-width:817px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    h1,figcaption{
+        font-family: Poppins;
+    }
+
+    p{
+        font-family: Roboto;
+    }
+
+
+    img{
+        max-width: 300px;
+        width: 250px;
+        display: block;
+        border: 3px solid black;
+        margin: auto 2rem;
+    }
+    
+    header{
+        background-color: blue;
+        width: 100%;
+
+        h1{
+            font-size: 2rem;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+    }
+
+    main{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem auto;
+
+
+        .sitename{
+            margin: 2rem;
+            text-align: center;
+
+            .name,.purpose{
+                margin: 1rem auto;
+            }
+
+            h1{
+                width: auto;
+            }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center ;
+        }
+
+        .colorschemes{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: gray;
+            text-align: left;
+            padding: 3rem;
+            margin: 2rem auto;
+
+        }
+
+        .mobilewireframes{
+            margin: 3rem auto;
+
+            h1{
+                margin-bottom: 2rem;
+            }
+
+            figcaption{
+                font-size: 1.5rem;
+            }
+        }
+
+
+        .largescreenwireframes{
+            margin: 3rem auto;
+
+            h1{
+                margin-bottom: 1rem;
+            }
+
+            .desktopversion{
+                figcaption{
+                    font-size: 1.5rem;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+        background-color: blue;
+        height: 5rem;
+        margin-top: -5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+
+        #lastmodified{
+            text-align: center;
+        }
+    }
+}

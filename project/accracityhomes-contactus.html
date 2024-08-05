@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content = "We provide users with an easy way to find homes to rent and buy at affordable prices">
+    <meta name="author" content = "Nuley Stanley Nephi">
+    <link rel="stylesheet" href="../project/styles/accracityhomes.css">
+    <link rel="stylesheet" href="./images/fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="./styles/accracityhomes-small.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./images/companylogo - Copy.ico" type="image/x-icon">
+<script type="module" defer src="./scripts/accracityhomes.js"></script>
+    <title>AccraCityHomes</title>
+</head>
+<body>
+   <header>
+    <a href="./accracityhomes.html">    <img src="./images/companylogo.png" alt="company image" loading="lazy"></a>
+    <!-- hamburgermenu -->
+    <div class="controls">
+        <div class="buttons">
+            <div class="row">
+                <input type="checkbox" id="hamburger" />
+                <label for="hamburger" class="hamburger">
+                  <span class="line"></span>
+                  <span class="line"></span>
+                  <span class="line"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <!-- navigations -->
+     <nav>
+        <ul class="navigations">
+            <li><a href="./accracityhomes.html">Homes</a></li>
+            <li><a href="./accracityhomes.html">About Us</a></li>
+            <li><a href="./accracityhomes-sales.html">Sales</a></li>
+            <li><a href="./accracityhomes-contactus.html">Contact Us</a></li>
+        </ul>
+     </nav>
+   </header>
+   <main>
+    <!-- forms for the website -->
+    <form action="./accracityhomes.html" method="get">
+        <fieldset>
+            <legend>User Detail*</legend>
+            <label>
+                Firstname*
+                <input type="text" class="fname" required>
+            </label>
+            <label>
+                Lastname*
+                <input type="text" class="lname" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Site Review*</legend>
+            <label>
+                Site Sections*
+                <select name="sitesection" id="sitesection">
+                    <option value="select product" disabled selected>Select Product</option>
+                </select>
+            </label>
+            <label>
+                Please Rate Our Website and Services*
+                <div class="stars">
+                    <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                </div>
+            </label>
+            <label>
+                Which feature did you find useful about our website*
+                <div class="productsrate">
+                    <label for="rate1">
+                        <input type="checkbox"><label>Accesibility</label>
+                    </label>
+                    <label for="rate1">
+                        <input type="checkbox"><label>Ease of Navigation</label>
+                    </label>
+                    <label for="rate1">
+                        <input type="checkbox"><label>Functionality</label>
+                    </label>
+                    <label for="rate1">
+                        <input type="checkbox"><label>Quality Content</label>
+                    </label>
+                </div>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>User Message*</legend>
+            <label>
+                Please Leave A Message*
+                <textarea name="usermessage" id="usermessage" required></textarea>
+            </label>
+        </fieldset>
+        <label>
+            <input type="submit" id="submit" name="submit">
+        </label>
+    </form>   
+   </main>
+   <footer>
+    <div class="logoandsocial">
+        <div class="companylogo">
+            <img src="./images/companylogo.png" alt="company logo" loading="lazy">
+        </div>
+        <div class="copyright">
+            &copy;2024 Accra City Homes
+        </div>
+    </div>
+    <div class="quicklinks">
+        <h2>Quick Links</h2>
+        <a href="./accracityhomes.html">Home</a><a href="#aboutus">About</a><a href="./accracityhomes-contactus.html">Contat Us</a><a href="./accracityhomes-sales.html">Sales</a>
+    </div>
+    <div class="contactus">
+        <h2>Socials</h2>
+        <div class="facebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a>Facebook</div>
+        <div class="instagram"><a href="#"><i class="fa-brands fa-instagram"></i></a>Instagram</div>
+        <div class="instagram"><a href="#"><i class="fa-brands fa-x-twitter"></i></a>Twitter</div>
+        <div class="instagram"><a href="#"><i class="fa-regular fa-envelope"></i></a>Email</div>
+        <div class="instagram"><a href="#"><i class="fa-solid fa-map-location-dot"></i></a>57 Indepence avenue north-ridge,<br> Accra Ghana</div>
+      </div>
+    </div>
+   </footer>
+</body>
+</html>

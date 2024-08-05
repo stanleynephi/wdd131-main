@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin:0rem 0 2rem 0;
+    padding: 1rem;
+    font-size: 1.4rem;
+    background-color: rgb(109, 194, 244);
+    font-family: Poppins;
+
+
+    a{
+        text-decoration: none;
+        font-size: 2rem;
+        color: black;
+        font-weight: bolder;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-family: Roboto;
+
+    h1{
+        margin-bottom: 2rem;
+    }
+
+    p{
+        width: 40rem;
+        font-size: 2rem;
+    }
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+	background-color: rgb(109, 194, 244);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    font-family: Poppins;
+    font-size: 1.2rem;
+}

@@ -23,10 +23,13 @@ links.forEach(link => {
 
 //api for homes
 const homes = document.querySelector(".homes-card");
-export const homesapi = "https://stanleynephi.github.io/wdd131/project/scripts/homes.json";
+export const homesapi = "https://stanleynephi.github.io/wdd131-main/project/scripts/homes.json";
 const rent = document.querySelector(".rentalhome")
 const buy = document.querySelector(".buyahouse")
 
+
+//import function
+import { PopulateHomes } from "./populatehome.js";  
 
 
 // fetch api for homes
@@ -60,8 +63,7 @@ products.forEach(
 )
 
 
-//import function
-import { PopulateHomes } from "./populatehome.js";
+
 
 import { $buyhome } from "./buyhomes.js";
 $buyhome()
